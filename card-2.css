@@ -1,0 +1,111 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+/*for desktop*/
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+.container{
+	margin:0 auto;
+	width:1250px;
+	height:500px;
+	text-align:center;
+	
+}
+
+[class*="col-"]{
+	float:left;
+	padding:10px;
+}
+hr{
+	margin-bottom:20px;
+	margin-top:5px;
+}
+strong{
+	color:#ff9021;
+}
+.header-card{
+	background-color:#262524;
+	padding:10px;
+	text-align:center;
+	margin-bottom:10px;
+	border-radius:5px;
+	margin-top:15px;
+}
+h2:hover{
+	background-color:green;
+}
+ol{
+	background-color:#0f65a8;
+	padding-left:5px;
+	transition:0.2s;
+	
+}
+ol:hover{
+	background-color:#22435c;
+	color:white;
+}
+
+.work-experience{
+	background-color:#6f7173;
+	padding:20px;
+	color:white;
+	text-align:justify;
+	width:400px;
+	margin-right:10px;
+	border-radius:5px;
+	height:480px;
+	transition:1s;
+}
+.work-experience:hover{
+	box-shadow:0px 5px 10px 5px #1c1916;
+	transform:scale(1.05);
+}
+
+.Education-info{
+	background-color:#6f7173;
+	padding:20px;
+	color:white;
+	text-align:justify;
+	width:400px;
+	margin-right:10px;
+	border-radius:5px;
+	height:480px;
+	transition:1s;
+}
+.Education-info:hover{
+	box-shadow:0px 5px 10px 5px #1c1916;
+	transform:scale(1.05);
+}
+
+.skill-info{
+	background-color:#6f7173;
+	padding:20px;
+	color:white;
+	text-align:justify;
+	width:400px;
+	margin-right:10px;
+	border-radius:5px;
+	height:480px;
+	transition:1s;
+}
+.skill-info:hover{
+	box-shadow:0px 5px 10px 5px #1c1916;
+	transform:scale(1.05);
+	
+}
